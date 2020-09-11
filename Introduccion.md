@@ -1,4 +1,4 @@
-# <center>EcmaScript 6</center>
+<center>EcmaScript 6</center>
 <p style="text-align: center">def 456</p>
 
 ## Herramientas
