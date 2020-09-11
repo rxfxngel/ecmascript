@@ -17,7 +17,7 @@ console.log(`la persona ${nombre} tiene ${edad} es de ${pais}`);
 ```
 # Funciones flecha
 ``` js
-/*
+
 /*
 const nombres=['Carlos','Alejandro','Manuel','Cesar'];
 const numero_caracteres = nombres.map(function(nombre){
