@@ -1,7 +1,7 @@
 # Herramientas
 - Babel para convertir el codigo de ecmascript 6 a javascript
 
-Declaracion de variables
+# Declaracion de variables
 |Javascript| EcmaScript |
 |--|--|
 | usa **var** | usa **let** y **const** |
