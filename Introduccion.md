@@ -15,3 +15,17 @@ console.log('la persona es'+nombre);
 //ecmascript
 console.log(`la persona ${nombre} tiene ${edad} es de ${pais}`); 
 ```
+# Funciones flecha
+``` js
+/*
+const nombres=['Carlos','Alejandro','Manuel','Cesar'];
+const numero_caracteres = nombres.map(function(nombre){
+    console.log(`${nombre} tiene ${nombre.length} letras`);
+});
+*/
+
+const nombres=['Carlos','Alejandro','Manuel','Cesar'];
+const numero_caracteres = nombres.map((nombre)=>{
+    console.log(`${nombre} tiene ${nombre.length} letras`);
+});
+```
