@@ -1,5 +1,4 @@
-<center>EcmaScript 6</center>
-<p style="text-align: center">def 456</p>
+# EcmaScript 6
 
 ## Herramientas
 - Babel para convertir el codigo de ecmascript 6 a javascript
