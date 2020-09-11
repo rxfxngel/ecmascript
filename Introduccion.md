@@ -1,4 +1,4 @@
-# EcmaScript 6 {style=text-align:center}
+# <center>EcmaScript 6</center>
 ## Herramientas
 - Babel para convertir el codigo de ecmascript 6 a javascript
 
