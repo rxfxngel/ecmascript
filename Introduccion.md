@@ -33,3 +33,7 @@ const numero_caracteres = nombres.map(nombre=>`${nombre} tiene ${nombre.length} 
 
 console.log(numero_caracteres);
 ```
+
+<p align="center">
+  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+</p>
