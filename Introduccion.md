@@ -10,6 +10,8 @@
 | |  las constantes(const) solo son de lectura , constantes de arreglo si pueden modificar sus elementos|
 # Concatenar cadenas
 ``` js
+//forma tradicional
 console.log('la persona es'+nombre);
+//ecmascript
 console.log(`la persona ${nombre} tiene ${edad} es de ${pais}`); 
 ```
