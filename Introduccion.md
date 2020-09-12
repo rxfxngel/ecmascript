@@ -1,4 +1,4 @@
-<center>Centered text</center>
+<p align="center">GG<p>
 
 # EcmaScript 6
 
