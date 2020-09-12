@@ -205,10 +205,13 @@ console.log(amigos.findIndex(amigo=>amigo==='manuel'));
 
 ## Webpack
 `se encarga de fusionar varios archivos en una linea de codigo para importarlo`
-Instalando
+### Instalando
 ```
-RAFAEL@ORGANITIEMPO MINGW64 /e/es6
-$ npm install --save-dev webpack
+npm install --save-dev webpack
+```
+### Instalando cliente
+```
+npm install --save-dev webpack-cli
 ```
 
 
