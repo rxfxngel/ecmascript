@@ -229,3 +229,17 @@ npm install --save-dev webpack-cli
   }
 }
 ```
+
+### Crear archivo webpack.config.json en la raiz
+``` json
+const path = require('path');
+
+module.exports = {
+  entry: './src/app.js',//archivo donde se fusionaran los demas js
+  output: {
+    filename: 'bundle.js',
+    path: path.join(__dirname, '/'/*aca se pone la ruta de salida*/),//join para unir rutas
+  },
+};
+
+```
