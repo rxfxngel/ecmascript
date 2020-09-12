@@ -34,5 +34,12 @@ const numero_caracteres = nombres.map(nombre=>`${nombre} tiene ${nombre.length} 
 
 console.log(numero_caracteres);
 ```
+## Parametros por defecto
 
+``` js
+function registrarUsuario(nombre,pais='Sin pais',correo,telefono='No especificado'){
+    return `Nombre: ${nombre} , Pais: ${pais}, Correo:${correo},Telefono:${telefono}`;
+}
 
+console.log(registrarUsuario("Rafael",undefined,"rx@md.com"));
+```
