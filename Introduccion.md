@@ -1,3 +1,4 @@
+-> This is center aligned <-
 <p align="center"># EcmaScript 6<p>
 
 ## Herramientas
