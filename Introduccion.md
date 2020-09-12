@@ -245,5 +245,5 @@ module.exports = {
 ```
 ### Instalar babel loader si no se instalo
 ```
-npm install --save-dev babel-loader @babel/core
+npm install --save-dev babel-loader
 ```
