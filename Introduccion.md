@@ -203,7 +203,7 @@ console.log(amigos.findIndex(amigo=>amigo==='manuel'));
 
 ```
 
-## Webpack
+##  Instalando y Configurando Webpack con Babel
 `se encarga de fusionar varios archivos en una linea de codigo para importarlo`
 ### Instalando
 ```
