@@ -43,3 +43,15 @@ function registrarUsuario(nombre,pais='Sin pais',correo,telefono='No especificad
 
 console.log(registrarUsuario("Rafael",undefined,"rx@md.com"));
 ```
+## Destructurar Arreglos
+
+``` js
+const persona = ['Rafael',23,'Peru'];
+
+const [nombre,,pais,profesion='No especificado profesion']= persona
+console.log(`${nombre} es ${profesion}`);
+
+const mostrarInfo = ([nombrex,,paisx])=>console.log(`${nombrex} es  de ${paisx}`);
+
+mostrarInfo(persona);
+```
