@@ -127,3 +127,17 @@ class Estudiante extends Usuario{
 const rafa = new Estudiante('rafa',20,'sadsad@gmail.com','biomedico');
 document.write(rafa.mostrarInfo());
 ```
+## Nuevas formas de trabajar con objetos
+``` js
+const crearObjeto=(nombre,edad)=>{
+    return {
+        nombre,
+        edad,
+        mostrarInfo(){
+            return `${nombre} tiene ${edad}`;
+        }
+    }
+}
+
+console.log(crearObjeto('Rafa',23).mostrarInfo());
+```
