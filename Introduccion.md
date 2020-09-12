@@ -1,6 +1,4 @@
-<p align="center">GG<p>
-
-# EcmaScript 6
+<p align="center"># EcmaScript 6<p>
 
 ## Herramientas
 - Babel para convertir el codigo de ecmascript 6 a javascript
