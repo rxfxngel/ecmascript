@@ -230,8 +230,8 @@ npm install --save-dev webpack-cli
 }
 ```
 
-### Crear archivo webpack.config.json en la raiz
-``` json
+### Crear archivo webpack.config.js en la raiz
+``` js
 const path = require('path');
 
 module.exports = {
