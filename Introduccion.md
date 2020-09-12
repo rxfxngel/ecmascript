@@ -274,3 +274,42 @@ module.exports = {
   }
 };
 ```
+
+## Modulos
+Archivo app.js el cual importara otros js
+``` js
+import {mensajeAlerta,saludo} from './modulos/mensajeAlerta';
+import Persona from './modulos/clasePersona';
+mensajeAlerta("hola mundo");
+saludo();
+
+const rafa = new Persona('Rafael',27);
+rafa.mostrarInfo();
+``` 
+Archivo mensajeAlerta.js
+``` js
+const mensajeAlerta= (mensaje)=>{
+    alert(mensaje);
+}
+
+const saludo=()=>{
+    console.log("Hola Rafael");
+}
+
+export {mensajeAlerta,saludo}
+```
+Archivo clasePersona.js
+``` js
+class Persona{
+    constructor(nombre,edad){
+        this.nombre=nombre;
+        this.edad=edad;
+    }
+
+    mostrarInfo(){
+        console.log(`${this.nombre} tiene  ${this.edad} años`);
+    }
+}
+
+export default Persona;
+```
