@@ -1,4 +1,4 @@
-> # EcmaScript 6 ☺
+> # :diamonds: :diamonds: :diamonds: EcmaScript 6 :diamonds: :diamonds: :diamonds:
 
 ## Herramientas
 - Babel para convertir el codigo de ecmascript 6 a javascript
