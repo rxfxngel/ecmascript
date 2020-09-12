@@ -141,3 +141,23 @@ const crearObjeto=(nombre,edad)=>{
 
 console.log(crearObjeto('Rafa',23).mostrarInfo());
 ```
+
+
+## Parametros rest y spread
+``` js
+//parametro rest
+const mostrarDatos=(...datos)=>{
+    console.log(datos);
+}
+
+mostrarDatos('Rafael',27,'sadasd@gmail.com','Peru');
+
+//parametros spread
+const mostrarDatos=(...datos)=>{
+    console.log(datos);
+}
+
+const arregloDatos=[ 'Rafael2',27,'sadasd@gmail.com','Peru'];
+
+mostrarDatos(...arregloDatos);
+```
