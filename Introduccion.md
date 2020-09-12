@@ -213,5 +213,19 @@ npm install --save-dev webpack
 ```
 npm install --save-dev webpack-cli
 ```
-
-
+### Configurar el package.json del proyecto
+```
+{
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "build":"webpack",
+    "build-babel": "babel src -d output --watch"
+  }
+}
+```
