@@ -55,3 +55,18 @@ const mostrarInfo = ([nombrex,,paisx])=>console.log(`${nombrex} es  de ${paisx}`
 
 mostrarInfo(persona);
 ```
+## Destructurar Objetos
+``` js
+const usuario = {
+    nombre :'Rafael',
+    correo: 'rafa@gmail.com',
+    edad:27,
+    pais:'Peru',
+    profesion:'Desarrollador'
+}
+
+const {nombre,pais,profesion='no especificado'} = usuario;
+
+const mostrarInfo= ({nombre,profesion}) =>console.log(`${nombre} es ${profesion}`);
+mostrarInfo(usuario);
+```
