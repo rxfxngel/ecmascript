@@ -1,5 +1,4 @@
--> This is center aligned <-
-<p align="center"># EcmaScript 6<p>
+# EcmaScript 6
 
 ## Herramientas
 - Babel para convertir el codigo de ecmascript 6 a javascript
