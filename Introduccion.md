@@ -204,4 +204,4 @@ console.log(amigos.findIndex(amigo=>amigo==='manuel'));
 ```
 
 ## Webpack
-'se encarga de fusionar varios archivos en una linea de codigo para importarlo'
+`se encarga de fusionar varios archivos en una linea de codigo para importarlo`
